@@ -6,3 +6,7 @@ cpp/a.out
 
 # Go
 go/go
+
+# NASM
+nasm/main.o
+nasm/a.out
