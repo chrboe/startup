@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'python2.7 main.py' (100 runs):
+
+         10,175622      task-clock:u (msec)       #    0,978 CPUs utilized            ( +-  0,05% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+               784      page-faults:u             #    0,077 M/sec                    ( +-  0,02% )
+        26.424.819      cycles:u                  #    2,597 GHz                      ( +-  0,03% )
+        18.496.042      stalled-cycles-frontend:u #   69,99% frontend cycles idle     ( +-  0,09% )
+        14.441.398      stalled-cycles-backend:u  #   54,65% backend cycles idle      ( +-  0,25% )
+        26.989.764      instructions:u            #    1,02  insn per cycle         
+                                                  #    0,69  stalled cycles per insn  ( +-  0,00% )
+         6.353.027      branches:u                #  624,338 M/sec                    ( +-  0,00% )
+           276.180      branch-misses:u           #    4,35% of all branches          ( +-  0,03% )
+
+       0,010402006 seconds time elapsed                                          ( +-  0,06% )
+

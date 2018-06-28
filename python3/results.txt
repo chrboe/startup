@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'python3.5 main.py' (100 runs):
+
+         20,142309      task-clock:u (msec)       #    0,989 CPUs utilized            ( +-  0,07% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+               900      page-faults:u             #    0,045 M/sec                    ( +-  0,02% )
+        57.115.449      cycles:u                  #    2,836 GHz                      ( +-  0,07% )
+        35.955.653      stalled-cycles-frontend:u #   62,95% frontend cycles idle     ( +-  0,13% )
+        27.237.972      stalled-cycles-backend:u  #   47,69% backend cycles idle      ( +-  0,60% )
+        53.597.145      instructions:u            #    0,94  insn per cycle         
+                                                  #    0,67  stalled cycles per insn  ( +-  0,02% )
+        12.089.800      branches:u                #  600,219 M/sec                    ( +-  0,02% )
+           614.089      branch-misses:u           #    5,08% of all branches          ( +-  0,05% )
+
+       0,020373277 seconds time elapsed                                          ( +-  0,07% )
+
