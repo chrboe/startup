@@ -1,0 +1,17 @@
+
+ Performance counter stats for './a.out' (100 runs):
+
+          0,223347      task-clock:u (msec)       #    0,597 CPUs utilized            ( +-  0,56% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+                44      page-faults:u             #    0,197 M/sec                    ( +-  0,23% )
+           249.697      cycles:u                  #    1,118 GHz                      ( +-  0,50% )
+           598.935      stalled-cycles-frontend:u #  239,86% frontend cycles idle     ( +-  0,70% )
+           573.571      stalled-cycles-backend:u  #  229,71% backend cycles idle      ( +-  0,53% )
+           174.893      instructions:u            #    0,70  insn per cycle         
+                                                  #    3,42  stalled cycles per insn  ( +-  0,00% )
+            38.470      branches:u                #  172,244 M/sec                    ( +-  0,00% )
+             4.000      branch-misses:u           #   10,40% of all branches          ( +-  0,08% )
+
+       0,000373877 seconds time elapsed                                          ( +-  0,54% )
+

@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'perl main.pl' (100 runs):
+
+          1,057973      task-clock:u (msec)       #    0,839 CPUs utilized            ( +-  0,43% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+               160      page-faults:u             #    0,152 M/sec                    ( +-  0,13% )
+         1.991.706      cycles:u                  #    1,883 GHz                      ( +-  0,46% )
+         2.458.903      stalled-cycles-frontend:u #  123,46% frontend cycles idle     ( +-  0,60% )
+         2.202.830      stalled-cycles-backend:u  #  110,60% backend cycles idle      ( +-  0,51% )
+         1.879.168      instructions:u            #    0,94  insn per cycle         
+                                                  #    1,31  stalled cycles per insn  ( +-  0,00% )
+           346.163      branches:u                #  327,195 M/sec                    ( +-  0,00% )
+            18.497      branch-misses:u           #    5,34% of all branches          ( +-  0,05% )
+
+       0,001260453 seconds time elapsed                                          ( +-  0,49% )
+

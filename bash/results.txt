@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'bash main.sh' (100 runs):
+
+          0,787081      task-clock:u (msec)       #    0,796 CPUs utilized            ( +-  0,47% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+               127      page-faults:u             #    0,161 M/sec                    ( +-  0,10% )
+         1.337.075      cycles:u                  #    1,699 GHz                      ( +-  0,47% )
+         1.828.761      stalled-cycles-frontend:u #  136,77% frontend cycles idle     ( +-  0,69% )
+         1.634.671      stalled-cycles-backend:u  #  122,26% backend cycles idle      ( +-  0,39% )
+         1.427.233      instructions:u            #    1,07  insn per cycle         
+                                                  #    1,28  stalled cycles per insn  ( +-  0,00% )
+           277.646      branches:u                #  352,753 M/sec                    ( +-  0,00% )
+            12.888      branch-misses:u           #    4,64% of all branches          ( +-  0,07% )
+
+       0,000989249 seconds time elapsed                                          ( +-  0,46% )
+

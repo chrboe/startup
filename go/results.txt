@@ -1,0 +1,17 @@
+
+ Performance counter stats for './go' (100 runs):
+
+          0,626384      task-clock:u (msec)       #    0,896 CPUs utilized            ( +-  0,51% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+               150      page-faults:u             #    0,239 M/sec                    ( +-  0,18% )
+           642.472      cycles:u                  #    1,026 GHz                      ( +-  0,57% )
+         1.696.808      stalled-cycles-frontend:u #  264,11% frontend cycles idle     ( +-  0,57% )
+         1.616.900      stalled-cycles-backend:u  #  251,67% backend cycles idle      ( +-  0,45% )
+           432.163      instructions:u            #    0,67  insn per cycle         
+                                                  #    3,93  stalled cycles per insn  ( +-  0,18% )
+            90.039      branches:u                #  143,743 M/sec                    ( +-  0,18% )
+             3.768      branch-misses:u           #    4,18% of all branches          ( +-  0,41% )
+
+       0,000698718 seconds time elapsed                                          ( +-  1,20% )
+

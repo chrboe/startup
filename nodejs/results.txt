@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'node main.js' (100 runs):
+
+         68,149065      task-clock:u (msec)       #    1,001 CPUs utilized            ( +-  0,08% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+             2.486      page-faults:u             #    0,036 M/sec                    ( +-  0,03% )
+       201.901.115      cycles:u                  #    2,963 GHz                      ( +-  0,08% )
+       118.369.502      stalled-cycles-frontend:u #   58,63% frontend cycles idle     ( +-  0,15% )
+        85.598.794      stalled-cycles-backend:u  #   42,40% backend cycles idle      ( +-  0,48% )
+       215.183.184      instructions:u            #    1,07  insn per cycle         
+                                                  #    0,55  stalled cycles per insn  ( +-  0,01% )
+        37.264.320      branches:u                #  546,806 M/sec                    ( +-  0,01% )
+         1.713.339      branch-misses:u           #    4,60% of all branches          ( +-  0,04% )
+
+       0,068112580 seconds time elapsed                                          ( +-  0,08% )
+
